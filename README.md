@@ -1,20 +1,20 @@
 # Gendrav1
-repositorio con código de prueba
+repositorio con código de prueba.
 ## Content
-ZIP_CODE
+ZIP_CODE.
 Esta API REST muestra los zip_code de México.
 El servicio se encuentra alojado en AppEngine, la cual es una plataforma (Paas) de GCP en Google Cloud Platform.
 El desaroollo esta basado en el lenguaje de programación JAVA con la tecnologia de Spring Boot, trabaja en conjunto con depencias y plugins tales como:
-Spring Cloud
-Spring Boot Starter Data JPA
-Spring Boot Starter Web
-Junit
-Postgresql
-Google Api Client
-Spring Boot Maven Project
-Maven Compiler Plugin
-Maven Invoker
-Spring Snapshots
+ *Spring Cloud.
+ *Spring Boot Starter Data JPA.
+ *Spring Boot Starter Web.
+ *Junit.
+ *Postgresql.
+ *Google Api Client.
+ *Spring Boot Maven Project.
+ *Maven Compiler Plugin.
+ *Maven Invoker.
+ *Spring Snapshots.
 Utiliza Java en su versión 8.
 Conecta con una base de datos almacenada en Cloud SQL en el gestor PostgreSQL dado que mantiene una alta disponibilidad, mantiene una estabilidad dentro del servidor, es un gestor bastante robusto.
 Los datos son cargados atraves de un CSV almacenado en Stogare e importado a la base de datos de Cloud SQL.
