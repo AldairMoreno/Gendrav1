@@ -12,16 +12,11 @@ Google Api Client
 Spring Boot Maven Project
 Maven Compiler Plugin
 Maven Invoker
-
+Spring Snapshots
 Utiliza Java en su versión 8.
-Conecta con una base de datos almacenada en Cloud SQL en el gestor PostgreSQL.
-
+Conecta con una base de datos almacenada en Cloud SQL en el gestor PostgreSQL dado que mantiene una alta disponibilidad, mantiene una estabilidad dentro del servidor, es un gestor bastante robusto.
+Los datos son cargados atraves de un CSV almacenado en Stogare e importado a la base de datos de Cloud SQL.
 Para ejecutar el servicio se debe acceder a la siguiente URL.
 URL SERVICE// https://zipcodes-dot-nomadic-drummer-306321.uc.r.appspot.com/zip/v1/zip_code/{zip_code}
 
-Informaciòn de tablas.
-unicamente cuentan con 4 registros, los cuales sirven para probar la url antes mencionada.
-2000
-20010
-20016
-20018
+
