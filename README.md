@@ -3,6 +3,7 @@ repositorio con código de prueba
 ## Content
 ZIP_CODE
 Esta API REST muestra los zip_code de México.
+El servicio se encuentra alojado en AppEngine, la cual es una plataforma (Paas) de GCP en Google Cloud Platform.
 El desaroollo esta basado en el lenguaje de programación JAVA con la tecnologia de Spring Boot, trabaja en conjunto con depencias y plugins tales como:
 Spring Cloud
 Spring Boot Starter Data JPA
